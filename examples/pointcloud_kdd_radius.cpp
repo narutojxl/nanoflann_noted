@@ -46,7 +46,7 @@ void kdtree_demo(const size_t N)
 	// construct a kd-tree index:
 	typedef KDTreeSingleIndexAdaptor<
 		L2_Simple_Adaptor<num_t, PointCloud<num_t> > , //距离评价函数
-		PointCloud<num_t>, //存放的数据
+		PointCloud<num_t>, //存放数据变量的类型
 		3 /* dim */  
 		> my_kd_tree_t;
 		// template class 
